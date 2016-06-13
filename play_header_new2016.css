@@ -1,0 +1,93 @@
+.play_wrapper {
+    position: relative;
+    width: 1280px;
+    Height: 378px;
+    
+    margin: 0 auto;
+    
+    background: url(img/play_header.jpg) no-repeat center;
+    background-size: 100% 100%;
+}
+
+.play_container {
+    position: relative;
+    width: 1280px;
+    height: 378px;
+    background: url(img/small_dot.png) repeat center;
+}
+
+.play_dash_top {
+    position: absolute;
+    top: 15px;
+}
+
+.play_dash_bottom {
+    position: absolute;
+    bottom: 15px;
+}
+
+.play_logo {
+    display: block;
+    margin: 0 auto;
+    padding-top: 25px;
+}
+
+.nav_wrapper {
+    width: 1280px;
+    height: 50px;
+    
+    margin-top: 20px;
+    
+    border-top: 2px solid #ffffff;
+    border-bottom: 2px solid #ffffff;
+    
+    line-height: 50px;
+    
+    background-color: #edaa01;
+}
+
+.nav_wrapper ul {
+    margin: 0 auto;
+    
+    padding: 0;
+   
+    width: 800px;
+    height: 50px;
+    
+    text-align: justify;
+    
+    background-color: #edaa01;
+}
+
+.nav_wrapper ul::after {
+    width: 100%; 
+    display: inline-block; 
+    content: "."; 
+    visibility: hidden}
+
+.nav_wrapper li {
+    display: inline-block;
+    
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+    font-weight: 300;
+    
+    line-height: 50px;
+    
+    
+    text-transform: uppercase;
+}
+
+
+.nav_wrapper a {
+/*
+    padding-left: 20px;
+    padding-right: 20px;
+*/
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.nav_wrapper a:hover {
+    font-weight: 400;
+}
